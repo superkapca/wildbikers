@@ -1,0 +1,97 @@
+	body {
+		font-family: "Montserrat", sans-serif;
+		padding-top: 60px;
+		background-color: lightgray;
+	}
+    .hero {
+      padding: 80px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #4CAF50;
+    }
+	h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #4CAF50;
+    }
+	h1, h2, h3 {
+		font-family: "Exo", sans-serif;
+		font-weight: bold;
+	}
+    .hero p {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    .hero .btn {
+      margin-bottom: 10px;
+    }
+	.hero .btn:hover {
+      background-color: blue;
+    }
+    .footer {
+      background-color: #4CAF50;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer p {
+      color: #ffffff;
+    }
+	.product-info {
+	  position: absolute;
+	  top: 100%;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  padding: 20px;
+	  background-color: rgba(0, 0, 0, 0.85);
+	  color: #ffffff;
+	  opacity: 0;
+	  transition: opacity 0.3s;
+	  border-radius: 5px;
+	  width: calc(100% - 30px);
+	  max-width: 400px;
+	}
+    .product-info img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+	  background-color: white;
+    }
+    .btn:hover + .product-info {
+      opacity: 1;
+    }
+	.odmik{
+		margin-top: 60px;
+	}
+	.kontaktozadje {
+		background-color: gray;
+		border-radius: 25px;
+	}
+	.ponudba{
+		color: black;
+	}
+	.bold{
+		font-weight: bold;
+	}
+	.navbar-brand {
+		transition: transform 0.3s;
+	}
+	.navbar-brand:hover {
+		transform: scale(1.3);
+	}
+	.navbar-nav .nav-link {
+		transition: transform 0.3s;
+	}
+	.navbar-nav .nav-link:hover {
+		transform: scale(1.1);
+	}
+	.navbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+	}
